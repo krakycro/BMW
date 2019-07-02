@@ -1,8 +1,11 @@
 py_test(
-    	name = "test_1",
-	srcs = ["test_1.py"],
+    	name = "TestMain",
+	srcs = ["TestMain.py"],
 	deps = [
-		"//src/lib:libstuff",
-		"//src/python:main"
+		"//src/core:libPepData",
+		"//src/core:libPepPars",
+		"//src/core:libPepGen",
+		"//src/exe:PepMain",
 	],
+	data = ["//test/cases"],
 )
