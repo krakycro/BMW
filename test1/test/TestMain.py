@@ -10,7 +10,7 @@ from src.core.libPepGen import *
 
 dir_test_folder = "./"
 
-str_type        = ".py"
+str_type        = ".txt"
 str_start       = "_test"
 str_end         = "_valid"
 

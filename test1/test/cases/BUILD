@@ -1,5 +1,5 @@
-py_library(
+filegroup(
 	name = "cases",
-	srcs = glob(["*.py"]),
+	srcs = glob(["*"]),
 	visibility = ["//visibility:public"],
 )
